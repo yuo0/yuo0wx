@@ -1,0 +1,19 @@
+<!--pages/one/one.wxml-->
+<block wx:for="{{jieshou}}">
+
+ <view class='waimian'>
+
+      <view class='likuang'>
+        <view class='fangtu'><image class='tu' src='{{item.lian}}'></image></view>
+       <text>{{item.xingming}}</text>
+       <view class='liang'>
+       <button bindtap='fayoujian' data-aaa='{{item.youxiang}}'>发邮</button>
+       <button bindtap='dadianhua' data-bbb='{{item.dianhua}}'>拨号</button>
+       <button bindtap='duanxin' >短信</button>
+       </view>
+      </view>
+     <view class='limian'></view> 
+
+ </view>
+
+</block>

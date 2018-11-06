@@ -1,0 +1,38 @@
+<!--pages/denglu/denglu.wxml-->
+<view class='base'>
+
+ <view class='top'>
+ <swiper  indicator-color='red' indicator-dots='true' interval='3000' duration='5000' autoplay='autoplay'>
+   <block wx:for="{{lunbo}}">
+    <swiper-item>
+    <image class='tu' src="{{item}}"></image>
+    </swiper-item>
+   </block>
+ </swiper>
+ </view>
+
+ <view class='content'>
+   <view class='gezi1'>
+  <view class='denglukuang'><input bindinput='dengluming' placeholder='输入登录名' class='denglu'></input></view>
+  <view class='mimakuang'><input bindinput='mima' placeholder='输入密码' password='true' class='mima'></input></view>
+   </view>
+
+   <view class='gezi2'>
+   <input bindinput='shuruyanzhengma' placeholder='输入验证码' class='yanzhengma'></input>
+   <text class='syanzhengma' bindtap='bianhuan'>{{yanzhengma}}</text>
+   </view>
+
+   <view>
+    <button bindtap='denglu' class='dengluanniu'>登录</button>
+    <view class='ziti'>
+    <text class='lian'>{{zhengquema}}</text>
+    </view>
+    <view class='ziti'>
+    <text class='lian'>{{shuchu}}</text>
+    </view>
+   </view>
+ </view>
+
+<button bindtap='zhuce' data-zhuce='zhuce'>没账号？点击注册</button>
+
+</view>

@@ -1,0 +1,33 @@
+<!--pages/youjian/youjian.wxml-->
+<view class='base'>
+<view class='ding'><image class='tu' src='../image/nankeyuan.png'></image></view>
+<view class='di'>
+<view class='top'>
+  
+  <view class='biaotikuang'>
+    
+     <input class='biaoti' bindinput='biao' placeholder='写标题'></input>
+
+  </view>
+
+</view>
+
+<view class='content'>
+
+   <view class='wenkuang'>
+    
+     <textarea bindinput='wen' placeholder='写文'></textarea>
+
+   </view>
+
+</view>
+
+<view class='bottom'> 
+
+  <button bindtap='fa'>发送</button>
+
+ <text class='chengle'>{{cheng}}</text>
+
+</view>
+</view>
+</view>

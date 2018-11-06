@@ -1,0 +1,82 @@
+/* pages/zhuce/zhuce.wxss */
+.base{
+  width: 100%;
+  height: 100vh;
+}
+.top{
+  width: 100%;
+  height: 20%;
+  
+}
+.tu{
+  width: 100%;
+  height: 100%;
+}
+.content{
+  width: 100%;
+  height: 60%;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: peachpuff;
+}
+.gezi1{
+  width: 620rpx;
+  height: 100rpx;
+  border: 6rpx solid turquoise;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+}
+.zizi{
+  display: flex;
+  flex-direction: row;
+}
+.xiemingzi{
+  text-align: center;
+}
+.bottom{
+  width: 100%;
+  height: 20%;
+  background-color: peachpuff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.geizi2{
+  width: 250rpx;
+  height: 200rpx;
+  border: 6rpx solid turquoise;
+}
+.xiaotu{
+  width: 100%;
+  height: 100%;
+}
+.geizi3{
+  width: 370rpx;
+  height: 200rpx;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.shangchuan{
+  width: 250rpx;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  color:white;
+  background-color: grey;
+}
+.zhuce{
+  width: 200rpx;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  color: white;
+  background-color: gray;
+}

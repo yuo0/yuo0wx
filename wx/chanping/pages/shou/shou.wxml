@@ -1,0 +1,36 @@
+<!--pages/shou/shou.wxml-->
+<view class='base'>
+
+  <view class='top'>
+
+   <swiper indicator-active-color='red' indicator-dots='true' autoplay='autoplay' interval='2000' duration='3000'>
+    <block wx:for="{{lunbotu}}">
+      
+      <swiper-item>
+       <image class='lunbotu' src='{{item}}'></image>
+      </swiper-item>
+
+    </block>
+   </swiper>
+
+  </view>
+
+  <view class='content'>
+   <block wx:for="{{tutu}}">
+    
+     <view class='geizi' bindtap='tiaozhuan' data-tiao='{{item.wenzi}}'>
+      
+       <view class='geizi1'><image class='xiaotu' src='{{item.xiaotu}}'></image></view>
+       <view class='geizi2'><text class='zi'>{{item.wenzi}}</text></view>
+
+     </view>
+     
+   </block>
+    
+    
+  
+  </view>
+ 
+<button bindtap='jinru' data-a='jinqu'>进入我的校园</button>
+
+</view>

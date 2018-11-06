@@ -1,0 +1,5 @@
+/* pages/er/er.wxss */
+.zi{
+  color: red;
+  font-size: 100rpx;
+}

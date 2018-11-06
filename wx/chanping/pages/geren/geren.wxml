@@ -1,0 +1,41 @@
+<!--pages/test/test.wxml-->
+<view class='top'>
+ <input class='shurukuang' placeholder='输入名字' bindinput='shuru'></input>
+ <button class='dianjianniu' bindtap='chaxun'>查询</button>
+ </view>
+
+ <view class='content'>
+ <block wx:if="{{qizi}}">
+
+ <view class='kuang'>
+  <view class='fangtu'>
+  <image class='tu' src='{{mingzi.lian}}'></image>
+  </view>
+  <view class='xinxi'>
+  <text>姓名：{{name}}</text>
+  <text>性别：{{mingzi.xingbie}}</text>
+  <text>电话：{{mingzi.dianhua}}</text>
+  
+  </view>
+ </view>
+ 
+ <view class='kuang1'>
+ <view class='gezi'>
+    <text >电话：{{mingzi.dianhua}}</text> 
+  </view>
+    <button class='boda' bindtap='hujiao' data-hu="{{mingzi.dianhua}}">拨打</button>
+ 
+ </view>
+ 
+ <view class='dagezi'>
+ <view class='yin'>
+ <audio controls='controls' name='Stardew Valley Overture' author='ConcernedApe' src="{{mingzi.yinyue}}" poster='{{mingzi.lian}}' autoplay="autoplay" loop='loop'></audio>
+ </view>
+
+ <view class='shi'>
+ <video controls='controls' src='{{mingzi.shipin}}'  autoplay="autoplay" loop='loop'></video> 
+ </view>
+ </view>
+<button bindtap='jing'>进入通讯录</button>
+</block>
+</view>

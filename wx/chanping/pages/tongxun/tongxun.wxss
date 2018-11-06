@@ -1,0 +1,32 @@
+/* pages/one/one.wxss */
+.waimian{
+   width: 100%;
+   height: 120rpx;
+   background-color: gainsboro;
+  
+   
+}
+.limian{
+  width: 100%;
+  height: 5rpx;
+  background-color: gray;
+}
+.likuang{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.liang{
+  display: flex;
+  align-items: center;
+  
+}
+.fangtu{
+  width: 80rpx;
+  height: 80rpx;
+  border: 1rpx solid;
+}
+.tu{
+  width: 100%;
+  height: 100%;
+}

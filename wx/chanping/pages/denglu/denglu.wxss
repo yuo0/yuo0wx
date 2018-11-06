@@ -1,0 +1,89 @@
+/* pages/denglu/denglu.wxss */
+.base{
+  width: 100%;
+  height: 100vh;
+}
+
+.top{
+  width: 100%;
+  height: 30%;
+  border: px solid;
+}
+.tu{
+  width: 100%;
+  height: 100%;
+}
+.content{
+  width: 100;
+  height: 70%;
+  border: px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: peachpuff;
+}
+.gezi1{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+  
+}
+.denglukuang{
+  margin: 30rpx;
+  border: 6rpx solid turquoise;
+  text-align: center;
+}
+.mimakuang{
+  margin: 30rpx;
+  border: 6rpx solid turquoise;
+  text-align: center;
+}
+.denglu{
+  width: 500rpx;
+  height: 80rpx;
+  background-color: white;
+}
+.mima{
+  width: 500rpx;
+  height: 80rpx;
+  background-color: white;
+
+}
+.gezi2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30rpx;
+}
+.yanzhengma{
+  width: 220rpx;
+  height: 80rpx;
+  background-color: white;
+  margin-right: 90rpx;
+  border: 6rpx solid turquoise;
+  text-align: center;
+}
+.syanzhengma{
+  font-size:  50rpx;
+  background-color: greenyellow;
+  margin: 30rpx;
+}
+.dengluanniu{
+  width: 300rpx;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  color: white;
+}
+.lian{
+  font-family: initial;
+  font-size: 60rpx;
+  background-color: red;
+}
+.ziti{
+  margin-top: 50rpx;
+}

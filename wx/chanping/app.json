@@ -1,0 +1,28 @@
+{
+  "pages": [
+    "pages/zhuce/zhuce",
+    "pages/shou/shou",
+    
+    "pages/denglu/denglu",
+    
+    "pages/tongxun/tongxun",
+    "pages/youjian/youjian",
+    
+    
+    
+    "pages/geren/geren",
+    
+    
+    "pages/er/er",
+    
+    "pages/index/index",
+    "pages/logs/logs"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}

@@ -1,0 +1,25 @@
+<!--pages/zhuce/zhuce.wxml-->
+<view class='base'>
+
+ <view class='top'><image class='tu' src='../image/nankeyuan.png'></image></view>
+
+ <view class='content'>
+  
+  <view class='gezi1'><view class='zizi'><text>名字:</text></view><input bindinput='mingzi' class='xiemingzi' placeholder='写你名字'></input></view>
+  <view class='gezi1'><text>密码:</text><input bindinput='mima' class='xiemingzi' placeholder='设个密码'></input></view>
+  <view class='gezi1'><text>性别:</text><input bindinput='xingbie' class='xiemingzi' placeholder='写你性别'></input></view>
+  <view class='gezi1'><text>手机:</text><input bindinput='shouji' class='xiemingzi' placeholder='写手机号'></input></view>
+  <view class='gezi1'><text>邮箱:</text><input bindinput='youxiang' class='xiemingzi' placeholder='写邮箱号'></input></view>
+ 
+ </view>
+
+ <view class='bottom'>
+   
+   <view class='geizi2'><image src='{{xiaotu}}' class='xiaotu'></image></view>
+   <view class='geizi3'><button bindtap='chuantu' class='shangchuan'>上传头像</button>
+   <button bindtap='zhuce'  class='zhuce'>注册</button></view>
+
+ </view>
+  <text>{{xianshizi}}</text>
+  <button bindtap='denglu'>返回登录</button>
+</view>
